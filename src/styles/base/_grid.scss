@@ -1,0 +1,16 @@
+/** @format */
+
+.grid {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+
+  @include mq-tablet {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+  }
+
+  @include mq-phone {
+    display: grid;
+    grid-template-columns: repeat(1, 1fr);
+  }
+}

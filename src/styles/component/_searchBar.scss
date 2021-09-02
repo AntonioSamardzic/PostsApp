@@ -1,0 +1,17 @@
+/** @format */
+
+.searchBar_box {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  margin-top: 1rem;
+
+  &-input {
+    width: 70%;
+    padding: 1rem;
+    font-size: 1.5rem;
+    border: 2px solid rgb(185, 185, 185);
+    border-radius: 50px;
+    outline: none;
+  }
+}

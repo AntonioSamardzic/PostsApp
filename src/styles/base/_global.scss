@@ -1,0 +1,26 @@
+/** @format */
+
+.container {
+  max-width: 1225px;
+  margin: auto;
+
+  @include mq-tablet {
+    max-width: 720px;
+    margin: auto;
+  }
+
+  @include mq-phone {
+    max-width: 350px;
+    margin: auto;
+  }
+}
+
+.app-info {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  max-width: 800px;
+  margin: auto;
+  padding: 1rem;
+  text-align: center;
+}

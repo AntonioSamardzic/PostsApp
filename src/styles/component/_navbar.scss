@@ -1,0 +1,21 @@
+/** @format */
+
+nav {
+  display: flex;
+  justify-content: center;
+  background-color: rgb(215, 228, 192);
+}
+
+.nav-ul {
+  display: flex;
+  list-style: none;
+}
+
+a {
+  padding: 1rem;
+  font-size: 1.2rem;
+  font-weight: 700;
+  text-transform: uppercase;
+  text-decoration: none;
+  color: black;
+}

@@ -1,0 +1,28 @@
+/** @format */
+
+.post__card {
+  display: flex;
+  flex-direction: column;
+  max-width: 300px;
+  background-color: rgb(215, 228, 192);
+  padding: 1rem;
+  margin: 1rem;
+  text-align: center;
+
+  &-title {
+    height: 70px;
+  }
+
+  &-para {
+    display: -webkit-box;
+    -webkit-line-clamp: 3;
+    -webkit-box-orient: vertical;
+    overflow: hidden;
+  }
+
+  &-link {
+    text-align: center;
+    background-color: white;
+    padding: 0.5rem;
+  }
+}
